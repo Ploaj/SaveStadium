@@ -24,6 +24,6 @@ deploy:
     branch: master
 
 after_build:
-  - 7z a "SaveStadium.zip" "%APPVEYOR_BUILD_FOLDER%\CrossArc\bin\Release\SaveStadium.exe"
-  - 7z a "SaveStadium.zip" "%APPVEYOR_BUILD_FOLDER%\CrossArc\bin\Release\SaveStadium.exe.config"
+  - 7z a "SaveStadium.zip" "%APPVEYOR_BUILD_FOLDER%\SaveStadium\bin\Release\SaveStadium.exe"
+  - 7z a "SaveStadium.zip" "%APPVEYOR_BUILD_FOLDER%\SaveStadium\bin\Release\SaveStadium.exe.config"
   - appveyor PushArtifact "SaveStadium.zip"
