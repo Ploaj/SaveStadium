@@ -58,6 +58,13 @@ namespace SaveStadium.WinForm
 
         public void SetPokemon(Pokemon pokemon)
         {
+            // fix null pokemon entries
+            if (pokemon.PokemonID == 255)
+            {
+                pokemon = new Pokemon();
+                pokemon.PokemonID = 0;
+            }
+
             Pokemon = pokemon;
             PictureBox.Image = null;
             PokemonName.Text = "";

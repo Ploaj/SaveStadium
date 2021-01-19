@@ -35,6 +35,23 @@
             this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.nudPokerusDays = new System.Windows.Forms.NumericUpDown();
+            this.nudPokerusStrain = new System.Windows.Forms.NumericUpDown();
+            this.pokerusLabel = new System.Windows.Forms.Label();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.nudCaughtLevel = new System.Windows.Forms.NumericUpDown();
+            this.cbLocation = new System.Windows.Forms.ComboBox();
+            this.cbCaughtTime = new System.Windows.Forms.ComboBox();
+            this.cbCaughtGender = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.lbGender = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label8 = new System.Windows.Forms.Label();
@@ -78,12 +95,17 @@
             this.cbAttack3 = new System.Windows.Forms.ComboBox();
             this.cbAttack2 = new System.Windows.Forms.ComboBox();
             this.cbAttack1 = new System.Windows.Forms.ComboBox();
-            this.label17 = new System.Windows.Forms.Label();
             this.nudPP1 = new System.Windows.Forms.NumericUpDown();
             this.nudPP2 = new System.Windows.Forms.NumericUpDown();
             this.nudPP3 = new System.Windows.Forms.NumericUpDown();
             this.nudPP5 = new System.Windows.Forms.NumericUpDown();
             this.label14 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.nudPPUp1 = new System.Windows.Forms.NumericUpDown();
+            this.nudPPUp2 = new System.Windows.Forms.NumericUpDown();
+            this.nudPPUp3 = new System.Windows.Forms.NumericUpDown();
+            this.nudPPUp4 = new System.Windows.Forms.NumericUpDown();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tbEXP = new System.Windows.Forms.TextBox();
@@ -97,31 +119,14 @@
             this.buttonPrimeCup = new System.Windows.Forms.Button();
             this.buttonPokeCup = new System.Windows.Forms.Button();
             this.buttonLittleCup = new System.Windows.Forms.Button();
-            this.label15 = new System.Windows.Forms.Label();
-            this.nudPPUp1 = new System.Windows.Forms.NumericUpDown();
-            this.nudPPUp2 = new System.Windows.Forms.NumericUpDown();
-            this.nudPPUp3 = new System.Windows.Forms.NumericUpDown();
-            this.nudPPUp4 = new System.Windows.Forms.NumericUpDown();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.cbLocation = new System.Windows.Forms.ComboBox();
-            this.nudCaughtLevel = new System.Windows.Forms.NumericUpDown();
-            this.cbCaughtTime = new System.Windows.Forms.ComboBox();
-            this.cbCaughtGender = new System.Windows.Forms.ComboBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.nudPokerusStrain = new System.Windows.Forms.NumericUpDown();
-            this.nudPokerusDays = new System.Windows.Forms.NumericUpDown();
-            this.pokerusLabel = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudPokerusDays)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudPokerusStrain)).BeginInit();
+            this.tableLayoutPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCaughtLevel)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudATKIV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDEFIV)).BeginInit();
@@ -141,18 +146,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudPP2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPP3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPP5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudLevel)).BeginInit();
-            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudPPUp1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPPUp2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPPUp3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPPUp4)).BeginInit();
-            this.tableLayoutPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudCaughtLevel)).BeginInit();
-            this.tableLayoutPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudPokerusStrain)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudPokerusDays)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudLevel)).BeginInit();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -242,6 +242,312 @@
             this.panel1.Size = new System.Drawing.Size(292, 316);
             this.panel1.TabIndex = 0;
             // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel5.ColumnCount = 2;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.49254F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.50746F));
+            this.tableLayoutPanel5.Controls.Add(this.label25, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.label26, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.label27, 0, 2);
+            this.tableLayoutPanel5.Controls.Add(this.nudPokerusDays, 1, 2);
+            this.tableLayoutPanel5.Controls.Add(this.nudPokerusStrain, 1, 1);
+            this.tableLayoutPanel5.Controls.Add(this.pokerusLabel, 1, 0);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 637);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 3;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(268, 81);
+            this.tableLayoutPanel5.TabIndex = 14;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(3, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(46, 13);
+            this.label25.TabIndex = 0;
+            this.label25.Text = "Pokerus";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(3, 24);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(34, 13);
+            this.label26.TabIndex = 1;
+            this.label26.Text = "Strain";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(3, 48);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(57, 26);
+            this.label27.TabIndex = 1;
+            this.label27.Text = "Days Remaining";
+            // 
+            // nudPokerusDays
+            // 
+            this.nudPokerusDays.Location = new System.Drawing.Point(74, 51);
+            this.nudPokerusDays.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.nudPokerusDays.Name = "nudPokerusDays";
+            this.nudPokerusDays.Size = new System.Drawing.Size(120, 20);
+            this.nudPokerusDays.TabIndex = 2;
+            // 
+            // nudPokerusStrain
+            // 
+            this.nudPokerusStrain.Location = new System.Drawing.Point(74, 27);
+            this.nudPokerusStrain.Maximum = new decimal(new int[] {
+            15,
+            0,
+            0,
+            0});
+            this.nudPokerusStrain.Name = "nudPokerusStrain";
+            this.nudPokerusStrain.Size = new System.Drawing.Size(120, 20);
+            this.nudPokerusStrain.TabIndex = 2;
+            this.nudPokerusStrain.ValueChanged += new System.EventHandler(this.nudPokerusStrain_ValueChanged);
+            // 
+            // pokerusLabel
+            // 
+            this.pokerusLabel.AutoSize = true;
+            this.pokerusLabel.Location = new System.Drawing.Point(74, 0);
+            this.pokerusLabel.Name = "pokerusLabel";
+            this.pokerusLabel.Size = new System.Drawing.Size(33, 13);
+            this.pokerusLabel.TabIndex = 3;
+            this.pokerusLabel.Text = "None";
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel4.ColumnCount = 2;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.25279F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.74722F));
+            this.tableLayoutPanel4.Controls.Add(this.nudCaughtLevel, 1, 1);
+            this.tableLayoutPanel4.Controls.Add(this.cbLocation, 1, 3);
+            this.tableLayoutPanel4.Controls.Add(this.cbCaughtTime, 1, 2);
+            this.tableLayoutPanel4.Controls.Add(this.cbCaughtGender, 1, 4);
+            this.tableLayoutPanel4.Controls.Add(this.label21, 0, 2);
+            this.tableLayoutPanel4.Controls.Add(this.label22, 0, 3);
+            this.tableLayoutPanel4.Controls.Add(this.label23, 0, 4);
+            this.tableLayoutPanel4.Controls.Add(this.label20, 0, 1);
+            this.tableLayoutPanel4.Controls.Add(this.label24, 0, 0);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 499);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 5;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(269, 132);
+            this.tableLayoutPanel4.TabIndex = 13;
+            // 
+            // nudCaughtLevel
+            // 
+            this.nudCaughtLevel.Location = new System.Drawing.Point(78, 27);
+            this.nudCaughtLevel.Maximum = new decimal(new int[] {
+            63,
+            0,
+            0,
+            0});
+            this.nudCaughtLevel.Name = "nudCaughtLevel";
+            this.nudCaughtLevel.Size = new System.Drawing.Size(57, 20);
+            this.nudCaughtLevel.TabIndex = 1;
+            // 
+            // cbLocation
+            // 
+            this.cbLocation.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbLocation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbLocation.FormattingEnabled = true;
+            this.cbLocation.Items.AddRange(new object[] {
+            "Special",
+            "New Bark Town",
+            "Route 29",
+            "Cherrygrove City",
+            "Route 30",
+            "Route 31",
+            "Violet City",
+            "Sprout Tower",
+            "Route 32",
+            "Ruins of Alph",
+            "Union Cave",
+            "Route 33",
+            "Azalea Town",
+            "Slowpoke Well",
+            "Ilex Forest",
+            "Route 34",
+            "Goldenrod City",
+            "Radio Tower",
+            "Route 35",
+            "National Park",
+            "Route 36",
+            "Route 37",
+            "Ecruteak City",
+            "Tin Tower",
+            "Burned Tower",
+            "Route 38",
+            "Route 39",
+            "Olivine City",
+            "Lighthouse",
+            "Battle Tower",
+            "Route 40",
+            "Whirl Islands",
+            "Route 41",
+            "Cianwood City",
+            "Route 42",
+            "Mt. Mortar",
+            "Mahogany Town",
+            "Route 43",
+            "Lake of Rage",
+            "Route 44",
+            "Ice Path",
+            "Blackthorn City",
+            "Dragon\'s Den",
+            "Route 45",
+            "Dark Cave",
+            "Route 46",
+            "Silver Cave",
+            "Pallet Town",
+            "Route 1",
+            "Viridian City",
+            "Route 2",
+            "Pewter City",
+            "Route 3",
+            "Mt. Moon",
+            "Route 4",
+            "Cerulean City",
+            "Route 24",
+            "Route 25",
+            "Route 5",
+            "Underground",
+            "Route 6",
+            "Vermilion City",
+            "Diglett\'s Cave",
+            "Route 7",
+            "Route 8",
+            "Route 9",
+            "Rock Tunnel",
+            "Route 10",
+            "Power Plant",
+            "Lavender Town",
+            "Lav Radio Tower",
+            "Celadon City",
+            "Saffron City",
+            "Route 11",
+            "Route 12",
+            "Route 13",
+            "Route 14",
+            "Route 15",
+            "Route 16",
+            "Route 17",
+            "Route 18",
+            "Fuchsia City",
+            "Route 19",
+            "Route 20",
+            "Seafoam Islands",
+            "Cinnabar Island",
+            "Route 21",
+            "Route 22",
+            "Victory Road",
+            "Route 23",
+            "Indigo Plateau",
+            "Route 26",
+            "Route 27",
+            "Tohjo Falls",
+            "Route 28",
+            "Fast Ship",
+            "(unlabeled)",
+            "(unlabeled)",
+            "Unknown (Poké Seer only)"});
+            this.cbLocation.Location = new System.Drawing.Point(78, 75);
+            this.cbLocation.Name = "cbLocation";
+            this.cbLocation.Size = new System.Drawing.Size(188, 21);
+            this.cbLocation.TabIndex = 0;
+            // 
+            // cbCaughtTime
+            // 
+            this.cbCaughtTime.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbCaughtTime.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbCaughtTime.FormattingEnabled = true;
+            this.cbCaughtTime.Items.AddRange(new object[] {
+            "None",
+            "Morning",
+            "Day",
+            "Night"});
+            this.cbCaughtTime.Location = new System.Drawing.Point(78, 51);
+            this.cbCaughtTime.Name = "cbCaughtTime";
+            this.cbCaughtTime.Size = new System.Drawing.Size(188, 21);
+            this.cbCaughtTime.TabIndex = 2;
+            // 
+            // cbCaughtGender
+            // 
+            this.cbCaughtGender.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbCaughtGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbCaughtGender.FormattingEnabled = true;
+            this.cbCaughtGender.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.cbCaughtGender.Location = new System.Drawing.Point(78, 99);
+            this.cbCaughtGender.Name = "cbCaughtGender";
+            this.cbCaughtGender.Size = new System.Drawing.Size(188, 21);
+            this.cbCaughtGender.TabIndex = 3;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(3, 48);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(33, 13);
+            this.label21.TabIndex = 4;
+            this.label21.Text = "Time:";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(3, 72);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(51, 13);
+            this.label22.TabIndex = 4;
+            this.label22.Text = "Location:";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(3, 96);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(63, 13);
+            this.label23.TabIndex = 4;
+            this.label23.Text = "OT Gender:";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(3, 24);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(36, 13);
+            this.label20.TabIndex = 4;
+            this.label20.Text = "Level:";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(3, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(62, 13);
+            this.label24.TabIndex = 4;
+            this.label24.Text = "Caught Info";
+            // 
             // lbGender
             // 
             this.lbGender.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -259,7 +565,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.63934F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.36066F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 53F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 117F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 118F));
             this.tableLayoutPanel2.Controls.Add(this.label8, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.label9, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.label10, 1, 0);
@@ -328,7 +634,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(100, 0);
+            this.label11.Location = new System.Drawing.Point(99, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(21, 13);
             this.label11.TabIndex = 3;
@@ -337,7 +643,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(153, 0);
+            this.label12.Location = new System.Drawing.Point(152, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(29, 13);
             this.label12.TabIndex = 4;
@@ -361,7 +667,7 @@
             0,
             0});
             this.nudATKIV.Name = "nudATKIV";
-            this.nudATKIV.Size = new System.Drawing.Size(41, 20);
+            this.nudATKIV.Size = new System.Drawing.Size(40, 20);
             this.nudATKIV.TabIndex = 7;
             this.nudATKIV.ValueChanged += new System.EventHandler(this.UpdateFinalStats);
             // 
@@ -374,7 +680,7 @@
             0,
             0});
             this.nudDEFIV.Name = "nudDEFIV";
-            this.nudDEFIV.Size = new System.Drawing.Size(41, 20);
+            this.nudDEFIV.Size = new System.Drawing.Size(40, 20);
             this.nudDEFIV.TabIndex = 7;
             this.nudDEFIV.ValueChanged += new System.EventHandler(this.UpdateFinalStats);
             // 
@@ -387,7 +693,7 @@
             0,
             0});
             this.nudSPCIV.Name = "nudSPCIV";
-            this.nudSPCIV.Size = new System.Drawing.Size(41, 20);
+            this.nudSPCIV.Size = new System.Drawing.Size(40, 20);
             this.nudSPCIV.TabIndex = 7;
             this.nudSPCIV.ValueChanged += new System.EventHandler(this.UpdateFinalStats);
             // 
@@ -401,14 +707,14 @@
             0,
             0});
             this.nudHPIV.Name = "nudHPIV";
-            this.nudHPIV.Size = new System.Drawing.Size(41, 20);
+            this.nudHPIV.Size = new System.Drawing.Size(40, 20);
             this.nudHPIV.TabIndex = 7;
             // 
             // nudHPEV
             // 
-            this.nudHPEV.Location = new System.Drawing.Point(100, 27);
+            this.nudHPEV.Location = new System.Drawing.Point(99, 27);
             this.nudHPEV.Maximum = new decimal(new int[] {
-            64,
+            63,
             0,
             0,
             0});
@@ -419,9 +725,9 @@
             // 
             // nudATKEV
             // 
-            this.nudATKEV.Location = new System.Drawing.Point(100, 51);
+            this.nudATKEV.Location = new System.Drawing.Point(99, 51);
             this.nudATKEV.Maximum = new decimal(new int[] {
-            64,
+            63,
             0,
             0,
             0});
@@ -432,9 +738,9 @@
             // 
             // nudDEFEV
             // 
-            this.nudDEFEV.Location = new System.Drawing.Point(100, 75);
+            this.nudDEFEV.Location = new System.Drawing.Point(99, 75);
             this.nudDEFEV.Maximum = new decimal(new int[] {
-            64,
+            63,
             0,
             0,
             0});
@@ -445,9 +751,9 @@
             // 
             // nudSPCEV
             // 
-            this.nudSPCEV.Location = new System.Drawing.Point(100, 99);
+            this.nudSPCEV.Location = new System.Drawing.Point(99, 99);
             this.nudSPCEV.Maximum = new decimal(new int[] {
-            64,
+            63,
             0,
             0,
             0});
@@ -465,7 +771,7 @@
             0,
             0});
             this.nudSPDIV.Name = "nudSPDIV";
-            this.nudSPDIV.Size = new System.Drawing.Size(41, 20);
+            this.nudSPDIV.Size = new System.Drawing.Size(40, 20);
             this.nudSPDIV.TabIndex = 7;
             this.nudSPDIV.ValueChanged += new System.EventHandler(this.UpdateFinalStats);
             // 
@@ -480,7 +786,7 @@
             // 
             // nudSPDEV
             // 
-            this.nudSPDEV.Location = new System.Drawing.Point(100, 147);
+            this.nudSPDEV.Location = new System.Drawing.Point(99, 147);
             this.nudSPDEV.Maximum = new decimal(new int[] {
             64,
             0,
@@ -503,7 +809,7 @@
             // lbCalHP
             // 
             this.lbCalHP.AutoSize = true;
-            this.lbCalHP.Location = new System.Drawing.Point(153, 24);
+            this.lbCalHP.Location = new System.Drawing.Point(152, 24);
             this.lbCalHP.Name = "lbCalHP";
             this.lbCalHP.Size = new System.Drawing.Size(13, 13);
             this.lbCalHP.TabIndex = 10;
@@ -512,7 +818,7 @@
             // lbCalATK
             // 
             this.lbCalATK.AutoSize = true;
-            this.lbCalATK.Location = new System.Drawing.Point(153, 48);
+            this.lbCalATK.Location = new System.Drawing.Point(152, 48);
             this.lbCalATK.Name = "lbCalATK";
             this.lbCalATK.Size = new System.Drawing.Size(13, 13);
             this.lbCalATK.TabIndex = 10;
@@ -521,7 +827,7 @@
             // lbCalDEF
             // 
             this.lbCalDEF.AutoSize = true;
-            this.lbCalDEF.Location = new System.Drawing.Point(153, 72);
+            this.lbCalDEF.Location = new System.Drawing.Point(152, 72);
             this.lbCalDEF.Name = "lbCalDEF";
             this.lbCalDEF.Size = new System.Drawing.Size(13, 13);
             this.lbCalDEF.TabIndex = 10;
@@ -530,7 +836,7 @@
             // lbCalSPCDEF
             // 
             this.lbCalSPCDEF.AutoSize = true;
-            this.lbCalSPCDEF.Location = new System.Drawing.Point(153, 120);
+            this.lbCalSPCDEF.Location = new System.Drawing.Point(152, 120);
             this.lbCalSPCDEF.Name = "lbCalSPCDEF";
             this.lbCalSPCDEF.Size = new System.Drawing.Size(13, 13);
             this.lbCalSPCDEF.TabIndex = 10;
@@ -539,7 +845,7 @@
             // lbCalSPD
             // 
             this.lbCalSPD.AutoSize = true;
-            this.lbCalSPD.Location = new System.Drawing.Point(153, 144);
+            this.lbCalSPD.Location = new System.Drawing.Point(152, 144);
             this.lbCalSPD.Name = "lbCalSPD";
             this.lbCalSPD.Size = new System.Drawing.Size(13, 13);
             this.lbCalSPD.TabIndex = 10;
@@ -548,7 +854,7 @@
             // lbCalSPCATK
             // 
             this.lbCalSPCATK.AutoSize = true;
-            this.lbCalSPCATK.Location = new System.Drawing.Point(153, 96);
+            this.lbCalSPCATK.Location = new System.Drawing.Point(152, 96);
             this.lbCalSPCATK.Name = "lbCalSPCATK";
             this.lbCalSPCATK.Size = new System.Drawing.Size(13, 13);
             this.lbCalSPCATK.TabIndex = 10;
@@ -1025,15 +1331,6 @@
             this.cbAttack1.TabIndex = 0;
             this.cbAttack1.SelectedIndexChanged += new System.EventHandler(this.UpdatePP);
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(53, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(21, 13);
-            this.label17.TabIndex = 1;
-            this.label17.Text = "PP";
-            // 
             // nudPP1
             // 
             this.nudPP1.Location = new System.Drawing.Point(53, 27);
@@ -1091,6 +1388,76 @@
             this.label14.TabIndex = 3;
             this.label14.Text = "Moves";
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(53, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(21, 13);
+            this.label17.TabIndex = 1;
+            this.label17.Text = "PP";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(3, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(38, 13);
+            this.label15.TabIndex = 1;
+            this.label15.Text = "PP Up";
+            // 
+            // nudPPUp1
+            // 
+            this.nudPPUp1.Location = new System.Drawing.Point(3, 27);
+            this.nudPPUp1.Maximum = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.nudPPUp1.Name = "nudPPUp1";
+            this.nudPPUp1.Size = new System.Drawing.Size(44, 20);
+            this.nudPPUp1.TabIndex = 2;
+            this.nudPPUp1.ValueChanged += new System.EventHandler(this.UpdatePP);
+            // 
+            // nudPPUp2
+            // 
+            this.nudPPUp2.Location = new System.Drawing.Point(3, 51);
+            this.nudPPUp2.Maximum = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.nudPPUp2.Name = "nudPPUp2";
+            this.nudPPUp2.Size = new System.Drawing.Size(44, 20);
+            this.nudPPUp2.TabIndex = 2;
+            this.nudPPUp2.ValueChanged += new System.EventHandler(this.UpdatePP);
+            // 
+            // nudPPUp3
+            // 
+            this.nudPPUp3.Location = new System.Drawing.Point(3, 75);
+            this.nudPPUp3.Maximum = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.nudPPUp3.Name = "nudPPUp3";
+            this.nudPPUp3.Size = new System.Drawing.Size(44, 20);
+            this.nudPPUp3.TabIndex = 2;
+            this.nudPPUp3.ValueChanged += new System.EventHandler(this.UpdatePP);
+            // 
+            // nudPPUp4
+            // 
+            this.nudPPUp4.Location = new System.Drawing.Point(3, 99);
+            this.nudPPUp4.Maximum = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.nudPPUp4.Name = "nudPPUp4";
+            this.nudPPUp4.Size = new System.Drawing.Size(44, 20);
+            this.nudPPUp4.TabIndex = 2;
+            this.nudPPUp4.ValueChanged += new System.EventHandler(this.UpdatePP);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Thistle;
@@ -1136,7 +1503,7 @@
             this.tbNickname.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbNickname.Location = new System.Drawing.Point(127, 27);
-            this.tbNickname.MaxLength = 11;
+            this.tbNickname.MaxLength = 10;
             this.tbNickname.Name = "tbNickname";
             this.tbNickname.Size = new System.Drawing.Size(105, 20);
             this.tbNickname.TabIndex = 2;
@@ -1223,373 +1590,6 @@
             this.buttonLittleCup.UseVisualStyleBackColor = true;
             this.buttonLittleCup.Click += new System.EventHandler(this.buttonLittleCup_Click);
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(3, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(38, 13);
-            this.label15.TabIndex = 1;
-            this.label15.Text = "PP Up";
-            // 
-            // nudPPUp1
-            // 
-            this.nudPPUp1.Location = new System.Drawing.Point(3, 27);
-            this.nudPPUp1.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.nudPPUp1.Name = "nudPPUp1";
-            this.nudPPUp1.Size = new System.Drawing.Size(44, 20);
-            this.nudPPUp1.TabIndex = 2;
-            this.nudPPUp1.ValueChanged += new System.EventHandler(this.UpdatePP);
-            // 
-            // nudPPUp2
-            // 
-            this.nudPPUp2.Location = new System.Drawing.Point(3, 51);
-            this.nudPPUp2.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.nudPPUp2.Name = "nudPPUp2";
-            this.nudPPUp2.Size = new System.Drawing.Size(44, 20);
-            this.nudPPUp2.TabIndex = 2;
-            this.nudPPUp2.ValueChanged += new System.EventHandler(this.UpdatePP);
-            // 
-            // nudPPUp3
-            // 
-            this.nudPPUp3.Location = new System.Drawing.Point(3, 75);
-            this.nudPPUp3.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.nudPPUp3.Name = "nudPPUp3";
-            this.nudPPUp3.Size = new System.Drawing.Size(44, 20);
-            this.nudPPUp3.TabIndex = 2;
-            this.nudPPUp3.ValueChanged += new System.EventHandler(this.UpdatePP);
-            // 
-            // nudPPUp4
-            // 
-            this.nudPPUp4.Location = new System.Drawing.Point(3, 99);
-            this.nudPPUp4.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.nudPPUp4.Name = "nudPPUp4";
-            this.nudPPUp4.Size = new System.Drawing.Size(44, 20);
-            this.nudPPUp4.TabIndex = 2;
-            this.nudPPUp4.ValueChanged += new System.EventHandler(this.UpdatePP);
-            // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel4.ColumnCount = 2;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.25279F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.74722F));
-            this.tableLayoutPanel4.Controls.Add(this.nudCaughtLevel, 1, 1);
-            this.tableLayoutPanel4.Controls.Add(this.cbLocation, 1, 3);
-            this.tableLayoutPanel4.Controls.Add(this.cbCaughtTime, 1, 2);
-            this.tableLayoutPanel4.Controls.Add(this.cbCaughtGender, 1, 4);
-            this.tableLayoutPanel4.Controls.Add(this.label21, 0, 2);
-            this.tableLayoutPanel4.Controls.Add(this.label22, 0, 3);
-            this.tableLayoutPanel4.Controls.Add(this.label23, 0, 4);
-            this.tableLayoutPanel4.Controls.Add(this.label20, 0, 1);
-            this.tableLayoutPanel4.Controls.Add(this.label24, 0, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 499);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 5;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(269, 132);
-            this.tableLayoutPanel4.TabIndex = 13;
-            // 
-            // cbLocation
-            // 
-            this.cbLocation.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cbLocation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbLocation.FormattingEnabled = true;
-            this.cbLocation.Items.AddRange(new object[] {
-            "Special",
-            "New Bark Town",
-            "Route 29",
-            "Cherrygrove City",
-            "Route 30",
-            "Route 31",
-            "Violet City",
-            "Sprout Tower",
-            "Route 32",
-            "Ruins of Alph",
-            "Union Cave",
-            "Route 33",
-            "Azalea Town",
-            "Slowpoke Well",
-            "Ilex Forest",
-            "Route 34",
-            "Goldenrod City",
-            "Radio Tower",
-            "Route 35",
-            "National Park",
-            "Route 36",
-            "Route 37",
-            "Ecruteak City",
-            "Tin Tower",
-            "Burned Tower",
-            "Route 38",
-            "Route 39",
-            "Olivine City",
-            "Lighthouse",
-            "Battle Tower",
-            "Route 40",
-            "Whirl Islands",
-            "Route 41",
-            "Cianwood City",
-            "Route 42",
-            "Mt. Mortar",
-            "Mahogany Town",
-            "Route 43",
-            "Lake of Rage",
-            "Route 44",
-            "Ice Path",
-            "Blackthorn City",
-            "Dragon\'s Den",
-            "Route 45",
-            "Dark Cave",
-            "Route 46",
-            "Silver Cave",
-            "Pallet Town",
-            "Route 1",
-            "Viridian City",
-            "Route 2",
-            "Pewter City",
-            "Route 3",
-            "Mt. Moon",
-            "Route 4",
-            "Cerulean City",
-            "Route 24",
-            "Route 25",
-            "Route 5",
-            "Underground",
-            "Route 6",
-            "Vermilion City",
-            "Diglett\'s Cave",
-            "Route 7",
-            "Route 8",
-            "Route 9",
-            "Rock Tunnel",
-            "Route 10",
-            "Power Plant",
-            "Lavender Town",
-            "Lav Radio Tower",
-            "Celadon City",
-            "Saffron City",
-            "Route 11",
-            "Route 12",
-            "Route 13",
-            "Route 14",
-            "Route 15",
-            "Route 16",
-            "Route 17",
-            "Route 18",
-            "Fuchsia City",
-            "Route 19",
-            "Route 20",
-            "Seafoam Islands",
-            "Cinnabar Island",
-            "Route 21",
-            "Route 22",
-            "Victory Road",
-            "Route 23",
-            "Indigo Plateau",
-            "Route 26",
-            "Route 27",
-            "Tohjo Falls",
-            "Route 28",
-            "Fast Ship",
-            "(unlabeled)",
-            "(unlabeled)",
-            "Unknown (Poké Seer only)"});
-            this.cbLocation.Location = new System.Drawing.Point(79, 75);
-            this.cbLocation.Name = "cbLocation";
-            this.cbLocation.Size = new System.Drawing.Size(187, 21);
-            this.cbLocation.TabIndex = 0;
-            // 
-            // nudCaughtLevel
-            // 
-            this.nudCaughtLevel.Location = new System.Drawing.Point(79, 27);
-            this.nudCaughtLevel.Maximum = new decimal(new int[] {
-            63,
-            0,
-            0,
-            0});
-            this.nudCaughtLevel.Name = "nudCaughtLevel";
-            this.nudCaughtLevel.Size = new System.Drawing.Size(57, 20);
-            this.nudCaughtLevel.TabIndex = 1;
-            // 
-            // cbCaughtTime
-            // 
-            this.cbCaughtTime.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cbCaughtTime.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbCaughtTime.FormattingEnabled = true;
-            this.cbCaughtTime.Items.AddRange(new object[] {
-            "None",
-            "Morning",
-            "Day",
-            "Night"});
-            this.cbCaughtTime.Location = new System.Drawing.Point(79, 51);
-            this.cbCaughtTime.Name = "cbCaughtTime";
-            this.cbCaughtTime.Size = new System.Drawing.Size(187, 21);
-            this.cbCaughtTime.TabIndex = 2;
-            // 
-            // cbCaughtGender
-            // 
-            this.cbCaughtGender.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cbCaughtGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbCaughtGender.FormattingEnabled = true;
-            this.cbCaughtGender.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
-            this.cbCaughtGender.Location = new System.Drawing.Point(79, 99);
-            this.cbCaughtGender.Name = "cbCaughtGender";
-            this.cbCaughtGender.Size = new System.Drawing.Size(187, 21);
-            this.cbCaughtGender.TabIndex = 3;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(3, 24);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(36, 13);
-            this.label20.TabIndex = 4;
-            this.label20.Text = "Level:";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(3, 48);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(33, 13);
-            this.label21.TabIndex = 4;
-            this.label21.Text = "Time:";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(3, 72);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(51, 13);
-            this.label22.TabIndex = 4;
-            this.label22.Text = "Location:";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(3, 96);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(63, 13);
-            this.label23.TabIndex = 4;
-            this.label23.Text = "OT Gender:";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(3, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(62, 13);
-            this.label24.TabIndex = 4;
-            this.label24.Text = "Caught Info";
-            // 
-            // tableLayoutPanel5
-            // 
-            this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel5.ColumnCount = 2;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.49254F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.50746F));
-            this.tableLayoutPanel5.Controls.Add(this.label25, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label26, 0, 1);
-            this.tableLayoutPanel5.Controls.Add(this.label27, 0, 2);
-            this.tableLayoutPanel5.Controls.Add(this.nudPokerusDays, 1, 2);
-            this.tableLayoutPanel5.Controls.Add(this.nudPokerusStrain, 1, 1);
-            this.tableLayoutPanel5.Controls.Add(this.pokerusLabel, 1, 0);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 637);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 3;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(268, 81);
-            this.tableLayoutPanel5.TabIndex = 14;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(3, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(46, 13);
-            this.label25.TabIndex = 0;
-            this.label25.Text = "Pokerus";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(3, 24);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(34, 13);
-            this.label26.TabIndex = 1;
-            this.label26.Text = "Strain";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(3, 48);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(57, 26);
-            this.label27.TabIndex = 1;
-            this.label27.Text = "Days Remaining";
-            // 
-            // nudPokerusStrain
-            // 
-            this.nudPokerusStrain.Location = new System.Drawing.Point(73, 27);
-            this.nudPokerusStrain.Maximum = new decimal(new int[] {
-            15,
-            0,
-            0,
-            0});
-            this.nudPokerusStrain.Name = "nudPokerusStrain";
-            this.nudPokerusStrain.Size = new System.Drawing.Size(120, 20);
-            this.nudPokerusStrain.TabIndex = 2;
-            this.nudPokerusStrain.ValueChanged += new System.EventHandler(this.nudPokerusStrain_ValueChanged);
-            // 
-            // nudPokerusDays
-            // 
-            this.nudPokerusDays.Location = new System.Drawing.Point(73, 51);
-            this.nudPokerusDays.Maximum = new decimal(new int[] {
-            4,
-            0,
-            0,
-            0});
-            this.nudPokerusDays.Name = "nudPokerusDays";
-            this.nudPokerusDays.Size = new System.Drawing.Size(120, 20);
-            this.nudPokerusDays.TabIndex = 2;
-            // 
-            // pokerusLabel
-            // 
-            this.pokerusLabel.AutoSize = true;
-            this.pokerusLabel.Location = new System.Drawing.Point(73, 0);
-            this.pokerusLabel.Name = "pokerusLabel";
-            this.pokerusLabel.Size = new System.Drawing.Size(33, 13);
-            this.pokerusLabel.TabIndex = 3;
-            this.pokerusLabel.Text = "None";
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1613,6 +1613,13 @@
             this.groupBox1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudPokerusDays)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudPokerusStrain)).EndInit();
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCaughtLevel)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudATKIV)).EndInit();
@@ -1635,20 +1642,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudPP2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPP3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPP5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudLevel)).EndInit();
-            this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudPPUp1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPPUp2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPPUp3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPPUp4)).EndInit();
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudCaughtLevel)).EndInit();
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.tableLayoutPanel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudPokerusStrain)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudPokerusDays)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudLevel)).EndInit();
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
